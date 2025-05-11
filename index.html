@@ -11,11 +11,11 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
 
-  <body>
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg fixed-top shadow-sm">
       <div class="container">
-        <a class="navbar-brand text-brand fw-bold" href="#">Bagus Aja</a>
+        <a class="navbar-brand text-brand fw-bold" href="#">Erisya</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -35,14 +35,6 @@
                 aria-current="page"
                 href="#home"
                 >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link link-custom mx-lg-2 mb-1"
-                aria-current="page"
-                href="#about"
-                >About</a
               >
             </li>
             <li class="nav-item">
@@ -75,8 +67,45 @@
     </nav>
     <!-- end of navbar -->
 
+    <!-- home -->
+    <section id="home" class="full-height">
+      <div class="container">
+        <div class="row" data-aos="fade-up">
+          <div class="col-md-7 order-1 order-md-0">
+            <div class="hero-text">
+              <div class="hero-text-start">Halo, teman-teman</div>
+              <div class="hero-text-name">Erisya Wilma G</div>
+              <div class="hero-text-end">Ingat Masyarakat, Ingat Sejarah</div>
+              <div class="hero-link">
+                <a
+                  href="#PORTOFOLIO"
+                  class="btn btn-brand me-3 mb-3 d-block d-md-inline"
+                >
+                  Jelajahi portofolio saya
+                </a>
+                <a href="#contact" class="link-costum">Hubungi saya</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-5 order-0 order-md-1">
+            <div class="hero-image">
+              <img
+                src="assets/images/Pas Foto.jpg"
+                alt="Erisya Wilma"
+                width="250"
+                class="rounded-circle"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of home -->
+
     <!-- js -->
     <script src="assets/js/aos.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
